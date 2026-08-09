@@ -50,7 +50,7 @@ section {
     width: 80%;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: 0,3s;
+    transition: 0.3s;
 }
 section:hover {
     transform: translateY(-5px);
@@ -216,4 +216,61 @@ header img {
 .social-links a:hover {
     color: darkblue;
     transform: scale(1.15) translateY(-5px);
+}
+.contact-button {
+    display: inline-block;
+    background: royalblue;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact-button:hover {
+    background: darkblue;
+    transform: scale(1.05) translateY(-3px);
+}
+.project-button {
+    display: inline-block;
+    background: royalblue;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.project-button:hover {
+    background: darkblue;
+    transform: scale(1.05) translateY(-3px);
+}
+.project-image {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.back-button {
+    display: inline-block;
+    background: royalblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.back-button:hover {
+    background: darkblue;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+.project-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.project-skills {
+    line-height: 1.8;
+}
+.project-skills li:hover {
+    color: royalblue;
 }

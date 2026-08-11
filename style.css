@@ -244,11 +244,16 @@ header img {
     transform: scale(1.05) translateY(-3px);
 }
 .project-image {
-    width: 200px;
+    width: 150px;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .back-button {
     display: inline-block;
@@ -257,6 +262,7 @@ header img {
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
+    margin-top: 20px;
 }
 .back-button:hover {
     background: darkblue;
@@ -270,7 +276,27 @@ header img {
 }
 .project-skills {
     line-height: 1.8;
+    list-style-type: square;
+}
+.project-skills li {
+    font-weight: bold;
+    transition: 0.3s;
 }
 .project-skills li:hover {
     color: royalblue;
+    transform: translateX(5px);
+}
+.project-title {
+    color: royalblue;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.project-description {
+    font-size: 20px;
+    line-height: 2;
+}
+.project-subtitle {
+    color: royalblue;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
